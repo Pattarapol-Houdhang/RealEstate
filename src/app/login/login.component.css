@@ -1,0 +1,22 @@
+.opt-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(45deg, blue, violet);
+  padding-left: 45px;
+  width: 100%;
+  height: 100%;
+}
+.opt-login-image {
+  width: 30%;
+  height: 30%;
+}
+.opt-login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: content;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  /* opacity: 0.9; */
+}
