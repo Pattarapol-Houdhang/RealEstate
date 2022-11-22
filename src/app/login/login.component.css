@@ -45,7 +45,8 @@
   gap: 35px;
 }
 .login-form-footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   gap: 30px;
   margin-top: 70px;
 }
@@ -105,7 +106,7 @@ input[type="checkbox"] {
   accent-color: #131086;
 }
 
-button {
+button.btn-sign-in {
   border: none;
   background: linear-gradient(45deg, #131086, #b621f3);
   color: white;
@@ -117,6 +118,9 @@ button {
   font-size: 18px;
   height: 55px;
   cursor: pointer;
+}
+button.btn-sign-in:hover {
+  opacity: 0.8;
 }
 
 /* Responsive */
@@ -143,3 +147,12 @@ button {
     display: none;
   }
 } /*# sourceMappingURL=style.css.map */
+hr {
+  height: 1px;
+  background: #f80000;
+  width: 80%;
+  margin-top: 10%;
+}
+.grid-span-2 {
+  grid-column: 1 / span 2;
+}
