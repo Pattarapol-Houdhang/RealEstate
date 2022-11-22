@@ -1,22 +1,43 @@
-<div class="opt-login">
-  <div class="opt-login-card">
-    <h1>Welcome to My website</h1>
-    <h5>Please login for use the platform</h5>
-    <label for="">Enter Email</label>
-    <input type="text">
-    <label for="">Enter Password</label>
-    <input type="text">
-    <div>
-      <input id="cbRemember" type="checkbox">
-      <label for="cbRemember">Remember me</label>
-    </div>
-    <h6>LOGING WITH</h6>
-    <button class="btn-signin">SIGN IN</button>
-    <button class="btn-signin"><i class="fa fa-facebook"></i>Facebook</button>
-    <button class="btn-signin"><i class="fa fa-google"></i>Google</button>
+<div class="container">
 
+  <div class="login-image">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="image">
   </div>
-  <div class="opt-login-image">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="">
+  <div class="login-content">
+    <div class="login-header">
+      <h1>Welcome to RealEstate</h1>
+      <p>Please login to use the platform</p>
+    </div>
+    <form class="login-form" autocomplete="off">
+      <div class="login-form-content">
+        <div class="form-item">
+          <label for="emailForm">Enter Email</label>
+          <input type="text" id="emailForm">
+        </div>
+        <div class="form-item">
+          <label for="passwordForm">Enter Password</label>
+          <input type="password" id="passwordForm">
+        </div>
+        <div class="form-item">
+          <div class="checkbox">
+            <input type="checkbox" id="rememberMeCheckbox" checked>
+            <label class="checkboxLabel" for="rememberMeCheckbox">Remember me</label>
+          </div>
+        </div>
+        <button type="submit">Sign In</button>
+      </div>
+      <div class="login-form-footer">
+        <a href="#">
+          <img width="30"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png">
+          Facebook Login
+        </a>
+        <a href="#">
+          <img width="30"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU">
+          Google Login
+        </a>
+      </div>
+    </form>
   </div>
 </div>
